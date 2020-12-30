@@ -1,4 +1,11 @@
-### Hi there 👋
+### Image segmentation using Python's cv2 module in the OpenCV library. 
+
+With the help of color masks, OpenCV allows image detection and segmentation. In this project, the fish nemo is segmented from the input image in two steps.
+1. Identifying the orange color range in the image- mask1
+2. Identifying the white color range in the image- mask2
+
+These two masks are combined to separate the entire fish from its surroundings. 
+The entire process involves multiple color conversions- from BGR to RGB for input reading, from RGB to HSV for creating masks, HSV to RGB for plots (matplotlib works with RGB).
 
 <!--
 **mihir751/mihir751** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
